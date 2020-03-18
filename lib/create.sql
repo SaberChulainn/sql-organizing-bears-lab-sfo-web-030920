@@ -1,10 +1,10 @@
 CREATE TABLE bears (
-id integer primary key,
-name text,
+id INTEGER primary key,
+name TEXT,
 age integer,
 gender text,
 color text,
 temperament text,
-alive boolean;
+alive BOOLEAN;
 
 )
