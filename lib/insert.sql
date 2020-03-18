@@ -6,4 +6,4 @@ VALUES("Mr.Chocolate", 20, "M", "Black", "Angry"),
 ("Melissa", 20, "F", "Black", "Angry"),
 ("Grinch", 20, "M", "Black", "Angry"),
 ("Wendy", 20, "F", "Black", "Angry"),
-("Unnamed", 20, "M", "Black", "Angry");
+(NULL, 20, "M", "Black", "Angry");
