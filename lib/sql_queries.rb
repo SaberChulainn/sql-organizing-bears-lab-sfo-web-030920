@@ -15,7 +15,7 @@ def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
 end
 
 def selects_oldest_bear_and_returns_name_and_age
-  "SELECT bears.name, bears.age FROM bears WHERE bears.age == (select max(bears.age) from bears)"
+  "SELECT bears.name, bears.age FROM bears WHERE bears.age == (select max(bears.age) from bears) && bears.name != NULL"
 end
 
 def select_youngest_bear_and_returns_name_and_age
