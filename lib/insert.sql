@@ -1,1 +1,1 @@
-INSERT INTO bears(id)
+INSERT INTO bears(id, name, age, gender, color, temperament)
