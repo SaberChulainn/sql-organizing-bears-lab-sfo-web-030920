@@ -5,6 +5,6 @@ age integer,
 gender text,
 color text,
 temperament text,
-alive BOOLEAN;
+alive BOOLEAN
 
 )
